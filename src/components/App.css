@@ -1,0 +1,37 @@
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95%;
+    height: 90%;
+    /* padding: 2%; */
+    border-radius: 15px;
+    margin: auto;
+
+    /* margin-left: 2%;
+    margin-right: 2%; */
+}
+
+.done {
+    background-color: #c4ffd4;
+}
+
+.done:hover {
+    background-color: #88af92;
+}
+
+.in-progress {
+    background-color: #edfdc2;
+}
+
+.in-progress:hover {
+    background-color: #9da782;
+}
+
+.awaits {
+    background-color: #f0d0fb;
+}
+
+.awaits:hover {
+    background-color: #b19bb9;
+}
